@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectángulo con Bordes Redondeados</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<style>
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rectangulo {
+    width: 300px;
+    height: 150px;
+    background-color: #0b0b0b; /* Tailwind indigo-700 */
+    color: white;
+    border: 8px solid #030303; /* Indigo-700, línea gruesa */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem; /* rounded-xl */
+    font-size: 1.25rem;
+    margin: 0;
+}
+</style>
+</head>
+<body>
+    <div class="rectangulo">¡Soy un rectángulo!</div>
+</body>
+</html>
